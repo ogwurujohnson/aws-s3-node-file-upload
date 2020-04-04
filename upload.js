@@ -3,16 +3,16 @@ const sharp = require('sharp');
 const fs = require('fs');
 
 class Upload {
-    constructor(access, secret, region, bucket) {
-        this.access = access;
-        this.secret = secret;
-        this.region = region;
-        this.bucket = bucket;
+    constructor(config) {
+        this.access = config.access;
+        this.secret = config.secret;
+        this.region = config.region;
+        this.bucket = config.bucket;
 
         const s3 = new AWS.S3({
-            accessKeyId: access,
-            secretAccessKey: secret,
-            region: region,
+            accessKeyId: this.access,
+            secretAccessKey: this.secret,
+            region: this.region,
         })
         this.s3 = s3;
     }

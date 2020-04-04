@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm start",
+    "start": "nodemon example/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,11 @@
   "homepage": "https://github.com/ogwurujohnson/aws-s3-node-file-upload#readme",
   "dependencies": {
     "aws-sdk": "^2.653.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
     "sharp": "^0.25.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
