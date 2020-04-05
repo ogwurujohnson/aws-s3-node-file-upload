@@ -11,3 +11,6 @@
 
 ### 0.1.3
  - Update license information on npm
+
+## 0.1.4
+ - remove credentials
