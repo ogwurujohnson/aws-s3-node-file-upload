@@ -21,10 +21,10 @@ const formidable = require('formidable');
 
 const AWS = require('../index');
 const upload = new AWS.Upload({
-    access: 'AKIAJPZ4HF4YJ6Z7RSHA',
-    secret: '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',
-    region: 'us-west-2',
-    bucket: 'getinsightly'
+    access: '',
+    secret: '',
+    region: '',
+    bucket: ''
 });
 
 ......
