@@ -8,3 +8,6 @@
 
 ### 0.1.2
  - Fix error on Readme file on how to install the package
+
+### 0.1.3
+ - Update license information on npm
