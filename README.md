@@ -1,14 +1,14 @@
 # AWS S3 IMAGE UPLOAD
  > An aws s3 image upload package, comes with image compression if you so choose to use this feature
- 
+
  > Note: This package is in no way endorsed by AWS, but is a little pet project of mine i wish to make big one day
 
 ## Install
 ```javascript
-npm install react-custom-errors
+npm i file-upload-s3
 ```
 ```javascript
-yarn add react-custom-errors
+yarn add file-upload-s3
 ```
 
 ## How to use
