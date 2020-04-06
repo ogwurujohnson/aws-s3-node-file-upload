@@ -19,7 +19,7 @@ const formidable = require('formidable');
 
 ....
 
-const AWS = require('../index');
+const AWS = require('file-upload-s3');
 const upload = new AWS.Upload({
     access: '',
     secret: '',

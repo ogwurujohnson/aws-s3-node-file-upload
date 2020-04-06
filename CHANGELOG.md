@@ -12,5 +12,8 @@
 ### 0.1.3
  - Update license information on npm
 
-## 0.1.4
+### 0.1.4
  - remove credentials
+
+### 0.1.5
+ - fix import error on readme
